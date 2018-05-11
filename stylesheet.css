@@ -1,0 +1,247 @@
+.headyboi{
+	font-family: "Dancing Script";
+	font-size: 60px;
+	color: #5e6822;
+}
+body {
+	background:url('images/wood.jpg');
+}
+.grid {
+  border: 3px transparent;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 20% 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  }
+
+.box {
+  background-color: transparent;
+  color: transparent;
+  border-radius: 4px;
+  border: 2px transparent;
+}
+
+.a {
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.drop {
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+.b {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.c {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.d {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.e {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.small { width: 600px; }
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.background { 
+	background:url('images/bigfootbckgrnd.gif');
+	background-color: rgba(255,255,255,0.36);
+	background-repeat: xy;
+	background-blend-mode: lighten;
+}
+
+@font-face {
+    font-family: "Amatic";
+    src: url(fonts/AmaticSC-Regular.ttf);
+}
+@font-face {
+    font-family: "Amatic Bold";
+    src: url(fonts/AmaticSC-Bold.ttf);
+}
+@font-face {
+    font-family: "Alex Brush";
+    src: url(fonts/AlexBrush-Regular.ttf);
+}
+@font-face {
+    font-family: "Dancing Script Bold";
+    src: url(fonts/DancingScript-Bold.ttf);
+}
+@font-face {
+    font-family: "Dancing Script";
+    src: url(fonts/DancingScript-Regular.ttf);
+}
+@font-face {
+    font-family: "Homemade Apple";
+    src: url(fonts/HomemadeApple-Regular.ttf);
+}
+@font-face {
+    font-family: "Marck Script";
+    src: url(fonts/MarckScript-Regular.ttf);
+}
+@font-face {
+    font-family: "Monoton";
+    src: url(fonts/Monoton-Regular.ttf);
+}
+@font-face {
+    font-family: "Niconne";
+    src: url(fonts/Niconne-Regular.ttf);
+}
+@font-face {
+    font-family: "NYCD";
+    src: url(fonts/NothingYouCouldDo.ttf);
+}
+@font-face {
+    font-family: "Special Elite";
+    src: url(fonts/SpecialElite-Regular.ttf);
+}
+.light {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	z-index: 2
+}
+.container {
+	position: relative;
+	text-align: center;
+    color: black;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.historybackground { 
+	background:url('images/flags.gif');
+	background-color: rgba(255,255,255,0.36);
+	background-repeat: xy;
+	background-blend-mode: lighten;
+	z-index: -2;
+}
+.description {
+	font-family: "Albertshal";
+	size: 96px;
+	color: #394a66;
+	font-weight: bold;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute center;
+    background-color: #d0d65e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: Albertshal;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.daraback {
+	background:url('images/woodyboi.jpg'); 
+	background-color: rgba(255,255,255,0.5);
+	background-repeat: x;
+	background-blend-mode: lighten;
+}
+.bannertxt {
+	font-family: "Pacifico";
+	size: 28px;
+	color: #4e773b;
+	z-index: 1;
+}
+.noelback {
+	background:url('images/noelbackground.jpg'); 
+	background-color: rgba(255,255,255,0.5);
+	background-size: 100% 100%;
+	background-blend-mode: lighten;
+}
+.humback { 
+	background:url('images/noelheader.gif');
+	background-color: rgba(255,255,255,0.36);
+	background-repeat: xy;
+	background-blend-mode: lighten;
+	z-index: -2;
+}
+.top-center {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.w {
+	color: #202a3a;
+}
+.bannertxt2 {
+	font-family: "Pacifico";
+	size: 200px;
+	color: #4e773b;
+	z-index: 1;
+}
+.backgroundns { 
+	background:url('images/noelsplash.jpg');
+	background-color: rgba(255,255,255,0.36);
+	background-repeat: xy;
+	background-blend-mode: lighten;
+	z-index: -2;
+}
+.backgroundds {
+	background:url('images/historybackground.jpg');
+	background-color: rgba(255,255,255,0.36);
+	background-size: 100% 100%;
+	background-blend-mode: lighten;
+	z-index: -2;
+}
