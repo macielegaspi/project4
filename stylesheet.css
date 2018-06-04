@@ -4,7 +4,7 @@
 	color: #5e6822;
 }
 body {
-	background:url('images/wood.jpg');
+	background:url('images/yEET.jpg');
 }
 .grid {
   border: 3px transparent;
@@ -16,66 +16,7 @@ body {
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   }
-  
- ---------------
-.gridsc {
-  border: 3px transparent;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20% 20% 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  }
-.sc1 {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 3;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-.sc2 {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 4;
-	grid-row-end: 4;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-.sc3 {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 5;
-	grid-row-end: 5;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-.schead {
-	font-family: NYCD;
-	size: 175px;
-	color: black;
-}
-.sctxt {
-	font-family: Special Elite;
-	size: 40px;
-	color: black;
-}
-.eh {
-	grid-column-start: 2;
-	grid-column-end: span 2;
-	grid-row-start: 4;
-	grid-row-end: 4;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-.txt {
-	background-color: yellow;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
------------------
+
 .box {
   background-color: transparent;
   color: transparent;
@@ -127,8 +68,18 @@ body {
 	margin-left: 20px;
 	margin-top: 20px;
 }
-
-
+.f {
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+.g {
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 4;
+	grid-row-end: 4;
+}
 .small { width: 600px; }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
@@ -138,6 +89,11 @@ body {
 	background-color: rgba(255,255,255,0.36);
 	background-repeat: xy;
 	background-blend-mode: lighten;
+}
+.bubtxt {
+	font-family: Special Elite;
+	size: 150px;
+	color: #051030;
 }
 
 @font-face {
@@ -229,6 +185,8 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Links inside the dropdown */
@@ -244,6 +202,10 @@ body {
 .dropdown-content a:hover {background-color: black}
 
 /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
