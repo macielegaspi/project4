@@ -268,3 +268,60 @@ body {
 	background-blend-mode: lighten;
 	z-index: -2;
 }
+.gridsc {
+  border: 3px transparent;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 20% 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  }
+.sc1 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.sc2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.sc3 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 5;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.schead {
+	font-family: NYCD;
+	size: 175px;
+	color: black;
+}
+.sctxt {
+	font-family: Special Elite;
+	size: 40px;
+	color: black;
+}
+.eh {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.txt {
+	background-color: yellow;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
