@@ -54,13 +54,13 @@ body {
 }
 .schead {
 	font-family: NYCD;
-	size: 60px;
-	color: white;
+	size: 175px;
+	color: black;
 }
 .sctxt {
-	font-family: NYCD;
+	font-family: Special Elite;
 	size: 40px;
-	color: white;
+	color: black;
 }
 .eh {
 	grid-column-start: 2;
